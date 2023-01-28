@@ -7,6 +7,8 @@ njGallery (Next.JS Justified Gallery) is an image gallery that takes as input an
 
 When the browser window is resized, the calculation re-runs in order to maintain justification.
 
+It does not presently support imported images.
+
 Example:
 
 ![img_1.png](img_1.png)
