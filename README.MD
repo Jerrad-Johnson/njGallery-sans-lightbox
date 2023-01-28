@@ -1,10 +1,24 @@
 # NextJS Justified Gallery (njGallery)
 ***
+
+## About 
+
+njGallery (Next.JS Justified Gallery) is an image gallery that takes as input an array of image URLs and sizes them to fill the width of the container they've been placed in.
+
+When the browser window is resized, the calculation re-runs in order to maintain justification.
+
+Example:
+
+![img_1.png](img_1.png)
+
 ## Usage
 
 ### Import
 
-```require ...```
+Sample:
+```
+import NjGallery from "./components/njGallery";
+```
 
 ### Sample Gallery call
 
@@ -83,13 +97,17 @@ const galleryInputs: GalleryInputs = {
 ***
 ## Requirements
 
-#### React
+### React
 
 `useState`, `useEffect`. Gallery is built on React-18, and should be future-version compatible.
 
 ### NextJS
 
 `<Image>` tag.
+
+### Typescript
+
+njGallery is typescript-based.
 
 ***
 
